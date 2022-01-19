@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(36, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  h1 {
+    position: relative;
+    padding: 0;
+    margin-top: 20px;
+    font-family: "Changa", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #a70e0e;
+  }
+  
+  .one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+  }
+  .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+  }
+
+  
+  .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+  
+
+    .square{
+        background-color: black;
+        box-shadow: 0 0 2px #000;
+        height: 20px;
+        width: 20px;
+        margin: 2px;
+        transition: 2s ease-out;
+    }
+  
+    .square:hover{
+        transition-duration: 0s;
+    }
